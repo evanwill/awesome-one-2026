@@ -22,8 +22,11 @@ padding: 6em
 
 {% include feature/alert.html text="Watch out!" color="warning" align="center" %}
 
-This is random paragraph content!
-This a paragraph.
+Dogs are great.
+
+1. one
+2. two
+5. three
 
 {% capture example %}
 ### Example Stuff
