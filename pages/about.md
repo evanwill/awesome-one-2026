@@ -5,35 +5,53 @@ permalink: /about.html
 # include CollectionBuilder info at bottom
 credits: true
 # featured-image value can be one objectid for a photo object in this collection, a relative path to an image in this project, or a full url to any image. If left blank, no featured image will appear at top of About page.
-about-featured-image: demo_031
+about-featured-image: cities391
 # set background-position for featured image, "center", "top", "bottom"
-position: bottom
+position: center
 # major heading to display over featured image
-heading: About the Collection
+heading: Learn About Awesome Stuff
 # paragraph text below heading in featured image
-sub-heading: 
+sub-heading: Now!
 # additional padding added to the feature to increase size. Give value in em or px, e.g. "5em".
 padding: 6em
 # Edit the markdown on in this file to describe your collection
 # Look in _includes/feature for options to easily add features to the page
 ---
 
-## Example Change
+## Learn More
 
-This demo collection features items from the University of Idaho Library's [Digital Collections](https://www.lib.uidaho.edu/digital/), and is build using [CollectionBuilder-CSV](https://github.com/CollectionBuilder/collectionbuilder-csv).
+{% include feature/alert.html text="Watch out!" color="warning" align="center" %}
 
-CollectionBuilder-CSV is a "Stand Alone" template for creating digital collection and exhibit websites using Jekyll, given:
+This is random paragraph content!
+This a paragraph.
 
-- a CSV of collection metadata
-- a folder of images, PDFs, audio, or video files
+{% capture example %}
+### Example Stuff
 
-Driven by your collection metadata, the template generates engaging visualizations to browse and explore your objects.
-The resulting static site can be hosted on any basic web server.
+This a paragraph.
+Hey everyone!
 
-[CollectionBuilder](https://github.com/CollectionBuilder/) is an set of open source tools for creating digital collection and exhibit websites that are driven by metadata and powered by modern static web technology.
-See [CB Docs](https://collectionbuilder.github.io/cb-docs/) for detailed information.
+- cats 
+- dogs
+- muffins
 
-{% include feature/image.html objectid="demo_001" width="75" %} 
+More info.
+{% endcapture %}
 
-<!-- IMPORTANT!!! DELETE this comment and the include below when you are finished editing this page for your collection. The include below introduces about page features. They will show up on your collection's about page until you delete it.  -->
-{% include cb/about_the_about.md %} 
+{% include feature/collapse.html button="Answer One" color="primary" text=example %}
+
+## Quiz
+
+{% include feature/collapse.html button="Learn More" color="success" text="Such an interesting story!" %}
+
+{% include feature/cloud.html fields="subject;creator" min=2 %}
+
+## More Images
+
+{% include feature/image.html objectid="cities851" width="25" caption=false %}
+
+### Also 
+
+Importantly, you should look at these:
+
+{% include feature/image.html objectid="cities851;cities1049" %}
