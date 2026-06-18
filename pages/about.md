@@ -20,7 +20,21 @@ padding: 6em
 
 ## Learn More
 
-{% include feature/alert.html text="Watch out!" color="warning" align="center" %}
+This is a poorly build demo collection where I am doing random demonstration things!
+
+{% include feature/image.html objectid="cities370" %}
+
+Wandering through this digital collection feels a little like opening a time capsule one photograph at a time. Every image of an Idaho town or city offers a new surprise, from quiet main streets and old storefront signs to crowded festivals and everyday scenes that somehow feel both distant and familiar. It is easy to lose track of time while clicking from one place to the next, noticing small details and imagining the stories behind each moment.
+
+What makes the experience especially fun is the randomness of the archive. One click might bring up a formal portrait of downtown life, and the next might reveal a playful snapshot of people, buildings, or streets that no longer look the same today. That variety gives the collection a sense of discovery, where each photograph invites curiosity and makes exploring feel more like an adventure than a simple search.
+
+{% include feature/image.html objectid="cities993;cities281;cities727" %}
+
+These images turn Idaho’s past into something vivid and approachable, whether you are browsing for local history, inspiration, or just enjoyment. Together, the photographs create a patchwork of towns and cities that highlights how communities changed over time while keeping a recognizable spirit. It is a joyful way to connect with place, memory, and the unexpected charm of archival photography.
+
+{% include feature/image.html objectid="cities103" %}
+
+## Markdown
 
 Dogs are great.
 
@@ -28,30 +42,9 @@ Dogs are great.
 2. two
 5. three
 
-{% capture example %}
-### Example Stuff
-
-This a paragraph.
-Hey everyone!
-
-- cats 
-- dogs
-- muffins
-
-More info.
-{% endcapture %}
-
-{% include feature/collapse.html button="Answer One" color="primary" text=example %}
-
-## Quiz
-
-{% include feature/collapse.html button="Learn More" color="success" text="Such an interesting story!" %}
+## Cloud Include 
 
 {% include feature/cloud.html fields="subject;creator" min=2 %}
-
-## More Images
-
-{% include feature/image.html objectid="cities851" width="25" caption=false %}
 
 ### Also 
 
