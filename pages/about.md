@@ -20,9 +20,11 @@ padding: 6em
 
 ## Learn More
 
-This is a poorly build demo collection where I am doing random demonstration things!
+YeeHaw! Boys and Girls!
 
 {% include feature/image.html objectid="cities370" %}
+
+This is a poorly build demo collection where I am doing random demonstration things!
 
 Wandering through this digital collection feels a little like opening a time capsule one photograph at a time. Every image of an Idaho town or city offers a new surprise, from quiet main streets and old storefront signs to crowded festivals and everyday scenes that somehow feel both distant and familiar. It is easy to lose track of time while clicking from one place to the next, noticing small details and imagining the stories behind each moment.
 

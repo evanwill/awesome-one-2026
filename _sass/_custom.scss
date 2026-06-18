@@ -2,3 +2,9 @@
     Put your custom SCSS here! 
     This allows you to override any CollectionBuilder or Bootstrap CSS without modifying the base theme files directly.
 */
+.display-1, .display-2, h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
+    font-family: "Bungee Shade"; 
+}
+body {
+    font-family: "Bitcount Grid Double";
+}
